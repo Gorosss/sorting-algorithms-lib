@@ -1,4 +1,17 @@
-function bubbleSort(numbersArr: Array<number>) {
+
+export function bubbleSort(inputArr: number[] | string[]){
+  if (typeof inputArr[0] === 'number') {
+    return bubbleSortNumbers(inputArr as number[]);
+  }
+  else if (typeof inputArr[0] === 'string') {
+    return bubbleSortStrings(inputArr as string[]);
+  }
+
+}
+
+
+
+function bubbleSortNumbers(numbersArr: Array<number>) {
 
   for (let i=0; i < numbersArr.length-1; ++i) {
     for (let j=0; j < numbersArr.length-1-i; ++j) {
