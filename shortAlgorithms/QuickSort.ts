@@ -10,12 +10,8 @@ function swap(array: Array<any>, pos1: number, pos2: number) {
   array[pos2] = temp;
 }
 
-function partition(
-  array: Array<any>,
-  pivotIndex: number,
-  leftBound: number,
-  rightBound: number
-) {
+
+function partition(array: Array<any>, pivotIndex: number, leftBound: number, rightBound: number){
   let pivot = array[pivotIndex];
   let partitionIndex = leftBound;
 
@@ -36,21 +32,18 @@ function partition(
  * @param rightBound Index of right-most element for section to be sorted
  * @returns Returns sorted array
  */
-function quickSort(
-  array: number[] | string[],
-  leftBound: number,
-  rightBound: number
-): Array<any> {
+function quickSort(array: number[] | string[], leftBound: number, rightBound: number): Array<any> {
+
   let pivotIndex: number;
   let partitionIndex: number;
 
   if (leftBound < rightBound) {
     pivotIndex = rightBound;
     partitionIndex = partition(array, pivotIndex, leftBound, rightBound);
-
+    
     // Sort left & right sub-sections
-    quickSort(array, leftBound, partitionIndex - 1);
-    quickSort(array, partitionIndex + 1, rightBound);
+    quickSort(array, leftBound, partitionIndex-1);
+    quickSort(array, partitionIndex+1, rightBound);
   }
   return array;
 }

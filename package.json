@@ -5,8 +5,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": ["sorting", "algorithms","JavaScript","library", "TypeScript"],
+  "author": "Gorosss",
+  "license": "MIC",
+  "description": "sorting-algorithms-lib is a lightweight JavaScript library that provides efficient implementations of various sorting algorithms. Whether you're learning algorithms, benchmarking performance, or building a project that requires sorting, this library has you covered!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gorosss/sorting-algorithms-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gorosss/sorting-algorithms-lib/issues"
+  },
+  "homepage": "https://github.com/Gorosss/sorting-algorithms-lib#readme"
 }
