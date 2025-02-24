@@ -1,11 +1,17 @@
 {
   "name": "sorting-algorithms-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["sorting", "algorithms","JavaScript","library", "TypeScript"],
+  "keywords": [
+    "sorting",
+    "algorithms",
+    "JavaScript",
+    "library",
+    "TypeScript"
+  ],
   "author": "Gorosss",
   "license": "MIC",
   "description": "sorting-algorithms-lib is a lightweight JavaScript library that provides efficient implementations of various sorting algorithms. Whether you're learning algorithms, benchmarking performance, or building a project that requires sorting, this library has you covered!",
@@ -16,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Gorosss/sorting-algorithms-lib/issues"
   },
-  "homepage": "https://github.com/Gorosss/sorting-algorithms-lib#readme"
+  "homepage": "https://github.com/Gorosss/sorting-algorithms-lib#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.5"
+  }
 }

@@ -1,4 +1,4 @@
-import { swap } from '../utils/swap';
+const { swap } = require('../utils/swap');
 
 function partition(array: Array<any>, pivotIndex: number, leftBound: number, rightBound: number){
   let pivot = array[pivotIndex];

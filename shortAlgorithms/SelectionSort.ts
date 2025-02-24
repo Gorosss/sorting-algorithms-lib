@@ -1,4 +1,4 @@
-import { swap } from '../utils/swap';
+const { swap } = require('../utils/swap');
 
 export function selectionSort(inputArr: Array<number> | Array<string>): Array<any> {
 
