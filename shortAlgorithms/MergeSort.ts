@@ -1,5 +1,5 @@
 function merge(left: any[], right: any[]): Array<any> {
-  const result = [];
+  const result: any [] = [];
 
   let leftIndex = 0;
   let rightIndex = 0;
@@ -22,7 +22,7 @@ function merge(left: any[], right: any[]): Array<any> {
   return result.concat(left.slice(leftIndex)).concat(right.slice(rightIndex));  // Add remaining elements on either side
 }
 
-function mergeSort(inputArr: string[] | number[]): Array<any> {
+export function mergeSort(inputArr: string[] | number[]): Array<any> {
   if (inputArr.length === 1) return inputArr;     // Base Case
 
   // Split Array in into right and left
