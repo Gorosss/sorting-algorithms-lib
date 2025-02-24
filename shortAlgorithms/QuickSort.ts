@@ -21,7 +21,7 @@ function partition(array: Array<any>, pivotIndex: number, leftBound: number, rig
  * @param rightBound Index of right-most element for section to be sorted
  * @returns Returns sorted array
  */
-function quickSort(array: number[] | string[], leftBound: number, rightBound: number): Array<any> {
+export function quickSort(array: number[] | string[], leftBound: number, rightBound: number): Array<any> {
 
   let pivotIndex: number;
   let partitionIndex: number;
