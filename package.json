@@ -1,6 +1,6 @@
 {
   "name": "sorting-algorithms-lib",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -11,7 +11,12 @@
     "algorithms",
     "JavaScript",
     "library",
-    "TypeScript"
+    "TypeScript",
+    "bubble sort",
+    "selection sort",
+    "insertion sort",
+    "merge sort",
+    "quick sort"
   ],
   "author": "Gorosss",
   "license": "MIC",

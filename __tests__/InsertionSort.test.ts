@@ -7,7 +7,7 @@ describe("InsertionSort Algorithm", () => {
   });
 
   test("InsertionSort should sort an array of strings", () => {
-    const arr = ["c", "a", "d", "b"];
-    expect(insertionSort(arr)).toEqual(["a", "b", "c", "d"]);
+    const arr = ["banana", "apple", "cherry", "date"];
+    expect(insertionSort(arr)).toEqual(["apple", "banana", "cherry", "date"]);
   });
 });
