@@ -31,31 +31,57 @@ Each sorting function sorts an array of numbers or strings in ascending order.
 #### Selection Sort
 ```js
 const arr = [64, 34, 25, 12, 22, 11, 90];
-console.log(selectionSort(arr));
+console.log(selectionSort(arr)); 
+// Output: [11, 12, 22, 25, 34, 64, 90]
+
+const strArr = ["banana", "apple", "cherry", "date"];
+console.log(selectionSort(strArr));
+// Output: ["apple", "banana", "cherry", "date"]
 ```
 
 #### Insertion Sort
 ```js
 const arr = [64, 34, 25, 12, 22, 11, 90];
 console.log(insertionSort(arr));
+// Output: [11, 12, 22, 25, 34, 64, 90]
+
+const strArr = ["banana", "apple", "cherry", "date"];
+console.log(insertionSort(strArr));
+// Output: ["apple", "banana", "cherry", "date"]
 ```
 
 #### Merge Sort
 ```js
 const arr = [64, 34, 25, 12, 22, 11, 90];
 console.log(mergeSort(arr));
+// Output: [11, 12, 22, 25, 34, 64, 90]
+
+const strArr = ["banana", "apple", "cherry", "date"];
+console.log(mergeSort(strArr));
+// Output: ["apple", "banana", "cherry", "date"]
 ```
 
 #### Quick Sort
 ```js
 const arr = [64, 34, 25, 12, 22, 11, 90];
 console.log(quickSort(arr, 0, arr.length - 1));
+// Output: [11, 12, 22, 25, 34, 64, 90]
+
+const strArr = ["banana", "apple", "cherry", "date"];
+console.log(quickSort(strArr, 0, strArr.length - 1));
+// Output: ["apple", "banana", "cherry", "date"]
 ```
 
 #### Bubble Sort
 ```js
 const arr = [64, 34, 25, 12, 22, 11, 90];
-console.log(bubbleSort(arr));
+console.log(bubbleSort(arr)); 
+// Output: [11, 12, 22, 25, 34, 64, 90]
+
+const strArr = ["banana", "apple", "cherry", "date"];
+console.log(bubbleSort(strArr));
+// Output: ["apple", "banana", "cherry", "date"]
+
 ```
 
 ## License
