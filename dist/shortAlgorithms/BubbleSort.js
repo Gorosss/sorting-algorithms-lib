@@ -1,5 +1,15 @@
 "use strict";
-function bubbleSort(numbersArr) {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.bubbleSort = bubbleSort;
+function bubbleSort(inputArr) {
+    if (typeof inputArr[0] === 'number') {
+        return bubbleSortNumbers(inputArr);
+    }
+    else if (typeof inputArr[0] === 'string') {
+        return bubbleSortStrings(inputArr);
+    }
+}
+function bubbleSortNumbers(numbersArr) {
     for (let i = 0; i < numbersArr.length - 1; ++i) {
         for (let j = 0; j < numbersArr.length - 1 - i; ++j) {
             if (numbersArr[j] > numbersArr[j + 1]) {
